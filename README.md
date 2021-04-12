@@ -33,6 +33,8 @@ Then, open a pull request. Be sure to mention the name of the variant(s) in the 
 You may also submit pull requests to suggest modifications or corrections to existing variants.
 These pull requests should not introduce new variants.
 
+You can use any tool to generate and edit the 5DFEN (you can try out [5dchess-designer](https://adri326.github.io/5dchess-designer/)), as long as the `variant.5dpgn` files included in the pull requests are valid 5DPGN+5DFEN files and follow the formatting guidelines described below.
+
 ### Formatting guidelines
 
 The `variant.5dpgn` file should follow the following guidelines, which are here to make reading and parsing the variants easier:
