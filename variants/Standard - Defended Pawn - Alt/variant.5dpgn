@@ -1,0 +1,6 @@
+[Board "custom"]
+[Mode "5D"]
+[VariantName "Standard - Defended Pawn - Alt"]
+[Promotions "Q,N,R,B"]
+[InitialMultiverses "0"]
+[r*nbqk*nbr*/p*p*p*p*p*p*p*p*/8/8/8/8/P*P*P*P*P*P*P*P*/R*NBQK*NBR*:0:1:w]

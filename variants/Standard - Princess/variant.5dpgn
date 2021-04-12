@@ -1,0 +1,6 @@
+[Board "custom"]
+[Mode "5D"]
+[VariantName "Standard - Princess"]
+[Promotions "S,N,R,B"]
+[InitialMultiverses "0"]
+[r*nbsk*bnr*/p*p*p*p*p*p*p*p*/8/8/8/8/P*P*P*P*P*P*P*P*/R*NBSK*BNR*:0:1:w]
