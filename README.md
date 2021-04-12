@@ -17,7 +17,7 @@ The PGN should be put in a file called `variant.5dpgn` within that sub-folder, a
 {Please leave the above tags as-is and edit the information below:}
 [VariantName "Your Variant Name"] {This should be the same name as the directory name}
 [Promotions "Q,N,R,B"]
-[InitialMultiverses "0"]
+[InitialMultiverses "0"] {space-separated list of initial timeline indices}
 [r*nbqk*bnr*/p*p*p*p*p*p*p*p*/8/8/8/8/P*P*P*P*P*P*P*P*/R*NBQK*BNR*:0:1:w]
 
 {Prefer inputting moves here rather than duplicating 5DFEN boards}
