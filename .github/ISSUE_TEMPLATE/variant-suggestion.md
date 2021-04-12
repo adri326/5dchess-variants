@@ -2,7 +2,7 @@
 name: Variant suggestion
 about: Template for suggesting a variant (prefer PRs for submitting variants)
 title: 'Suggestion: (Your variant name)'
-labels: ''
+labels: 'suggestion'
 assignees: ''
 
 ---
@@ -21,8 +21,8 @@ Make sure to change the issue title (in the above box) too!
 
 **Screenshots:**
 
-(drag&drop your screenshots here or paste links to them here)
+(Drag&drop your screenshots here or paste links to them here)
 
 **Description:**
 
-(please give a small description of your variant, this will also help us fix mistakes if there are any)
+(Please give a small description of your variant, this will also help us fix mistakes if there are any. You can also explain the issues that you encountered.)
