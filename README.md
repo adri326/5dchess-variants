@@ -29,6 +29,9 @@ You may put comments and analysis of different lines in separate files.
 You should fork this repository and clone it on your computer (or directly put the files from the website client).
 Then, open a pull request. Be sure to mention the name of the variant(s) in the pull request's body.
 
+You may also submit pull requests to suggest modifications or corrections to existing variants.
+These pull requests should not introduce new variants.
+
 ### Formatting guidelines
 
 The `variant.5dpgn` file should follow the following guidelines, which are here to make reading and parsing the variants easier:
