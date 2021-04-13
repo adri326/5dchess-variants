@@ -77,6 +77,8 @@ Any new submission must be made available under the CC0 license.
 
 ## Using this repository
 
+### As a submodule
+
 You may add this repository as a git submodule in your project:
 
 ```
@@ -84,3 +86,21 @@ git submodule add https://github.com/adri326/5dchess-variants 5dchess-variants
 ```
 
 Users will then have to use `git clone --recurse-submodules <your repository>` when cloning your repository.
+
+### As an npm module
+
+You may add this repository as an `npm` module:
+
+```
+npm install adri326/5dchess-variants
+```
+
+The module consists of a function that reads and caches the variants from the `variants/` folder:
+
+```js
+const variants = require("5dchess-variants");
+// You can disable the caching behavior by uncommenting the following line:
+// variants.cache = false;
+
+console.log(variants("Standard")); // The standard variant is read from the file, cached for later requests and returned here
+```

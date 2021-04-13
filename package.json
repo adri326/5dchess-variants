@@ -1,0 +1,22 @@
+{
+  "name": "5dchess-variants",
+  "version": "1.0.0",
+  "description": "Repository of custom variants for the game called \"5D Chess with Multiverse Time Travel\"",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adri326/5dchess-variants.git"
+  },
+  "keywords": [
+    "5d-chess"
+  ],
+  "author": "Shad Amethyst",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/adri326/5dchess-variants/issues"
+  },
+  "homepage": "https://github.com/adri326/5dchess-variants#readme"
+}
