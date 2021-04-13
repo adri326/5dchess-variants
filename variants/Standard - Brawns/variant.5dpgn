@@ -1,0 +1,6 @@
+[Board "custom"]
+[Mode "5D"]
+[VariantName "Standard - Brawns"]
+[Promotions "Q,N,R,B"]
+[InitialMultiverses "0"]
+[r*nbqk*bnr*/w*w*w*w*w*w*w*w*/8/8/8/8/W*W*W*W*W*W*W*W*/R*NBQK*BNR*:0:1:w]
