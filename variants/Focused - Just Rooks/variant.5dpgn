@@ -1,4 +1,7 @@
 [Size "5x5"]
 [Board "custom"]
 [Mode "5D"]
-[1rk1r/5/5/5/R1KR1:0:1:w]
+[VariantName "Focused - Just Rooks"]
+[Promotions "R"]
+[InitialMultiverses "0"]
+[1r*k*1r*/5/5/5/R*1K*R*1:0:1:w]

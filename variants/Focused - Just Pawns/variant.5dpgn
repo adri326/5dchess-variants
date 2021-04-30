@@ -1,4 +1,7 @@
 [Size "5x5"]
 [Board "custom"]
 [Mode "5D"]
-[ppppk/5/5/5/KPPPP:0:1:w]
+[VariantName "Focused - Just Pawns"]
+[Promotions "Q,N,R,B"]
+[InitialMultiverses "0"]
+[p*p*p*p*k*/5/5/5/K*P*P*P*P*:0:1:w]
