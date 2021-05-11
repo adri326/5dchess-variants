@@ -1,0 +1,8 @@
+# needs to be checked
+
+[Size "5x5"]
+[Board "custom"]
+[Mode "5D"]
+[5/5/3k*1/2r*2/3K*1:0:1:w]
+1. Ke1 / Rc1+
+2. (0T2)Ke1>>(0T1)e1~ / (1T1)Rc1#
