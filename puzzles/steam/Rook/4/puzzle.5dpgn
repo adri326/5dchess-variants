@@ -1,0 +1,7 @@
+[Size "4x4"]
+[Board "custom"]
+[Mode "5D"]
+[r*2k*/4/4/P*2K*:0:1:w]
+1. a2 / Rc4
+2. (0T2)Kd1>>(0T1)c2~ / (1T1)Ra2+
+3. (1T2)Kb3 / (0T2)Rc2 (1T2)Rc2#
