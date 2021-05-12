@@ -1,0 +1,22 @@
+{
+    "base": [
+        "Focused/Just Brawns",
+        "Standard/Default",
+        "Standard/Defended Pawn",
+        "Standard/Half Reflected",
+        "Standard/Princess",
+        "Standard/Reversed Royalty",
+        "Standard/Turn Zero",
+        "Standard/Two Timelines",
+        "Standard"
+    ],
+    "community": [
+        "Misc/Royalty War",
+        "Standard/Brawns",
+        "Standard/Defended Pawn/Alt",
+        "Standard/Double Royalty",
+        "Standard/Staggered Timelines/Brawns",
+        "Standard/Staggered Timelines",
+        "Standard/Turn Zero/Brawns"
+    ]
+}
