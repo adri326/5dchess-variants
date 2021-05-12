@@ -7,9 +7,9 @@ The repository is organized as follows:
 
 ## Variants
 
-Variants meant to be played should go in the `variants` folder.
-Each variant should be put in their own sub-folder, named after that variant.
-The PGN should be put in a file called `variant.5dpgn` within that sub-folder, and follow the following template:
+Variants should go in the `base/` or `community/` folder, depending on whether or not it is part of the base game.
+The direcotry structure is recursive, with `A - B - C` corresponding to `A/B/C` directory-wise.
+The PGN should be put in a file called `variant.5dpgn` within the variant's sub-folder, and follow the following template:
 
 ```pgn
 [Board "custom"]
@@ -50,7 +50,7 @@ The `variant.5dpgn` file should follow the following guidelines, which are here 
 - If a timeline has multiple starting boards (eg. `Standard - Turn Zero`), the boards should be ordered by increasing time coordinate
 - Boards should not go further back than `T0b` (you should otherwise shift them forward)
 - Any board on `T0b` should not be playable (you should otherwise shift all of the boards forward by one turn)
-- Please keep it to non-meme variants on the main branch
+- Please keep it to non-meme variants on the main branch and do not submit variants that are not part of the base game in the `/base` directory
 
 So that people can easily browse the repository online, you may create a file named `README.md`, containing a short description of the variant.
 
