@@ -1,10 +1,10 @@
 {
   "name": "5dchess-variants",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Repository of custom variants for the game called \"5D Chess with Multiverse Time Travel\"",
-  "main": "src/index.js",
+  "main": "node/index.js",
   "scripts": {
-    "test": "test/test.js"
+    "test": "node/test.js"
   },
   "repository": {
     "type": "git",

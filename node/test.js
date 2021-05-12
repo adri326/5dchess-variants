@@ -1,7 +1,7 @@
 #!/bin/node
 
 const assert = require("assert");
-const pgn = require("../src/index.js");
+const pgn = require("./index.js");
 const fs = require("fs");
 
 assert.equal(pgn("Standard"), fs.readFileSync("./base/Standard/variant.5dpgn"));
