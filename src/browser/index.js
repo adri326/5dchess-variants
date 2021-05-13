@@ -1,5 +1,5 @@
 // Hard-coded, sorry
-const BASE_URL = "https://raw.githubusercontent.com/adri326/5dchess-variants/main/";
+const BASE_URL = "https://adri326.github.io/5dchess-variants/";
 
 const VALIDATE_REGEX = /^[\w \-]+$/;
 
