@@ -102,5 +102,13 @@ const variants = require("5dchess-variants");
 // You can disable the caching behavior by uncommenting the following line:
 // variants.cache = false;
 
-console.log(variants("Standard")); // The standard variant is read from the file, cached for later requests and returned here
+variants("Standard").then(variant => console.log(variant)); // The standard variant is read from the file, cached for later requests and returned here
+```
+
+### From the browser
+
+```js
+import variants from "https://adri326.github.io/5dchess-variants/src/browser/index.js";
+
+variants("Standard").then(variant => console.log(variant));
 ```

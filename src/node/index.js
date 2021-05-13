@@ -50,7 +50,7 @@ function search_in_path(name, current_path, cache, full_name = name) {
 }
 
 /// Returns the variant's pgn and caches it if `module.exports.cache = true` (true by default)
-function get(name, base = true, community = false) {
+async function get(name, base = true, community = false) {
     if (typeof name !== "string") return;
     if (!NAME_REGEX.exec(name)) throw new Error(`Syntax error in variant name: ${name}`);
     name = name.trim();
@@ -64,12 +64,12 @@ function get(name, base = true, community = false) {
         }
     }
     if (base) {
-        let res = search_in_path(name, path.join(__dirname, "../base"), base_cache, name);
+        let res = search_in_path(name, path.join(__dirname, "../../base"), base_cache, name);
         if (res) return res;
     }
     if (community) {
 
-        let res = search_in_path(name, path.join(__dirname, "../community"), community_cache, name);
+        let res = search_in_path(name, path.join(__dirname, "../../community"), community_cache, name);
         if (res) return res;
     }
     throw new Error(`Variant not found: ${name}`);
